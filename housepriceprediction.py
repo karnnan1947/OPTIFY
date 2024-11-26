@@ -24,8 +24,8 @@ Predicted_price=predict_price(area,bedroom,bathroom)
 print(f"The predicted price for a {area} sqft house with {bedroom} bedroom and {bathroom} bathroom : ${Predicted_price}")
 # evaluating the models performance
 """
-YA = [1000000, 2000000, 1500000]
-Predicted_prices = np.array([864354.5835645406, 1950000.12345, 1550000.5678])
+YA = [550000, 850000, 782000, 486110, 293000, 705380, 381000, 499000, 497300, 447585]
+Predicted_prices = np.array([492341.06101, 838850.6332, 784647.7544, 481467.10021, 298204.82252, 722821.53464, 364332.01102, 481494.92107, 481494.92107, 446244.96628])
 mae=mean_absolute_error(YA,Predicted_prices)
 mse=mean_squared_error(YA,Predicted_prices)
 rmse=np.sqrt(mse)
